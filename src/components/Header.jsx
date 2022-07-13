@@ -5,7 +5,7 @@ const Header = () => {
 
     return  (
         <div>
-            <h1 className="text-center text-danger mt-3 mb-4">Coin Info</h1>
+            <h1 className="text-center text-primary mt-0 mb-0">Coin Info</h1>
         </div>
     
 

@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none !important;
+   
 }
 
 body {
@@ -21,14 +22,20 @@ body {
 
 } */
 
+.dropdown-menu {
+    margin-left: 100px;
+}
+
 ul{
     list-style: none;
 }
 
 .container {
-    max-width: 25%;
-    max-height: fit-content;
-}
+    max-width: 40%;
+     padding-top: 25px;    
+} 
+
+
 
 .list-group-item{
     background-color: lightgoldenrodyellow;
@@ -38,9 +45,9 @@ ul{
     width: 50px;
 }
 
-.coinList-item {
+/* .coinList-item {
     display: flex;
-}
+} */
 
 .coinsummary {
     border-color: lightcoral !important;
@@ -48,10 +55,10 @@ ul{
 }
 
 .coin-data-category {
-    fotn-size: 15px;
+    font-size: 10px;
 }
 
-.text-success {
+.text-success, .text-danger {
     position: absolute;
     padding-left: 150px;
 }
@@ -59,11 +66,87 @@ ul{
 .delete-icon{
     display: none;
     position: absolute;
-    left: 6px;
+    left: -145px;
     
 }
 
-.coinlist-item:hover .delete-icon {
+.coin:hover .delete-icon {
     display: block;
 }
 
+
+@media (max-width: 922px) {
+    .text-success, .text-danger {
+        font-size: 8px;
+    }
+    .text-price {
+       font-size: 12px;
+    }
+
+    .coinlist-item {
+        font-size: 10px;
+        align-items: baseline !important;
+        
+    }
+    .currancy-change {
+        margin-left: -50px;
+    }
+
+
+    .coinList-image {
+        width: 25px;
+    }
+}
+
+@media (max-width: 650px) {
+    .text-success, .text-danger {
+        font-size: 5px;
+        position: absolute;
+        margin-left: -15px;
+    }
+
+    .currancy-change {
+        margin-left: -67px;
+        margin-top: -7px;
+    }
+
+    .text-price {
+        margin-left: -15px;
+       font-size: 8px;
+    }
+
+    .coinlist-image {
+        max-width: 30% !important;
+        height: auto !important;
+        margin-left: -10px;
+    }
+}
+
+@media (max-width: 515px) {
+
+    .coinlist-image {
+        max-width: 60% !important;
+        height: auto !important;
+        margin-left: -10px;
+    }
+    .text-success, .text-danger {
+        font-size: 3px;
+        position: absolute;
+        margin-left: -16px;
+    }
+
+    .currancy-change {
+        margin-left: -67px;
+        margin-top: -7px;
+    }
+    .text-price {
+        margin-left: -16px;
+       font-size: 5px;
+    }
+
+    .coinlist-item {
+        font-size: 6px;
+        align-items: baseline !important;
+        
+    }
+}

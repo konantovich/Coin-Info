@@ -4,10 +4,10 @@ import AddCoin from "../components/AddCoin";
 import CoinList from "../components/CoinList";
 
 
-const CoinSummaryPage = () => {
+const CoinSummaryPage = () => { //container for coin list
 
     return  (
-        <div>
+        <div className="coinsummary shadow border p-5 rounded mt-2 bg-light">
        <AddCoin></AddCoin>
        <CoinList></CoinList>
         </div>
