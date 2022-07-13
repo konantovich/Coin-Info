@@ -3,6 +3,7 @@ import {BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 
 import './App.css'
 
+import $ from 'jquery'; 
 import CoinDetailPage from './pages/CoinDetailPage';
 import CoinSummaryPage from './pages/CoinSummaryPage';
 import Header from './components/Header';
