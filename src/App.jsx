@@ -19,7 +19,7 @@ const App  = () => {
             <BrowserRouter>      
             <Header></Header>
                  
-                        <Route exact path="/" component={CoinSummaryPage} />
+                        <Route exact path="/Coin-Info/" component={CoinSummaryPage} />
                         <Route path="/coins/:id/" component={CoinDetailPage}></Route>
                 
                     </BrowserRouter>

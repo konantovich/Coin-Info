@@ -4,6 +4,7 @@ import Chart from 'chart.js/auto';
 import 'chartjs-adapter-moment';
 import { getRelativePosition } from 'chart.js/helpers';
 import { historyOptions } from "../chartConfigs/ChartConfigs";
+import { Link } from "react-router-dom";
 
 
 const HistoryChart = ({data}) => {
@@ -62,11 +63,19 @@ const HistoryChart = ({data}) => {
         }
     })
 
+    const goBackBtn = () => {
+        console.log("goBackBtn");
+    }
+
     const renderPrice = () => {
         if (detail) {
             return (
                 <div>
-                  <p className="text-price my-0">{detail.current_price.toFixed(2)}</p>
+                    <div className="d-flex justify-content-between">
+                    <p className="text-price my-0">{detail.current_price.toFixed(2)}</p>
+                    <Link className="go-back btn btn-danger btn-sm"  onClick={() => goBackBtn()} to="/Coin-Info/">Go back</Link>
+                         </div>
+                 
                 <p className={detail.price_change_percentage_24h < 0 ? "text-danger my-0 p-1" : "text-success my-0 p-1"}>{detail.price_change_percentage_24h.toFixed(2)}%</p>
                 </div>
               
