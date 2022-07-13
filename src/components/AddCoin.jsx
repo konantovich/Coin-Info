@@ -1,6 +1,7 @@
 import React, {useState, useContext} from "react";
 import { Link } from "react-router-dom";
 import { WatchListContext } from "../context/WatchListContext";
+import Button from 'react-bootstrap/Button';
 
 const AddCoin = () => {
 

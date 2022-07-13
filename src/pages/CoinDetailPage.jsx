@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import CoinData from "../components/CoinData";
 import HistoryChart from "../components/HistoryChart";
 import CoinGecko from "../apis/CoinGecko";
+import axios from 'axios';
 
 const CoinDetailPage = () => {
 
