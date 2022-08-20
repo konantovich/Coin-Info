@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Coin-Info/static/css/main.25049d20.css",
-    "main.js": "/Coin-Info/static/js/main.e58982a6.js",
+    "main.css": "/Coin-Info/static/css/main.17197efb.css",
+    "main.js": "/Coin-Info/static/js/main.9113b7d0.js",
     "index.html": "/Coin-Info/index.html",
-    "main.25049d20.css.map": "/Coin-Info/static/css/main.25049d20.css.map",
-    "main.e58982a6.js.map": "/Coin-Info/static/js/main.e58982a6.js.map"
+    "main.17197efb.css.map": "/Coin-Info/static/css/main.17197efb.css.map",
+    "main.9113b7d0.js.map": "/Coin-Info/static/js/main.9113b7d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.25049d20.css",
-    "static/js/main.e58982a6.js"
+    "static/css/main.17197efb.css",
+    "static/js/main.9113b7d0.js"
   ]
 }
