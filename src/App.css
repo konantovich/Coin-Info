@@ -1,0 +1,163 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none !important;
+}
+
+body {
+   background-color: rgb(0, 90, 60);
+}
+
+.p-1 {
+   width: 50px;
+   height: 50px;
+}
+
+/* i {
+    background-color: red;
+    width: 20px;
+    height: 20px;
+
+} */
+
+/* .dropdown-menu {
+    margin-left: 100px;
+} */
+
+/* ul{
+    list-style: none;
+} */
+.shadow {
+   width: 400px;
+}
+
+.find-coins {
+   width: 200px;
+}
+
+.container {
+   max-width: 60%;
+   padding-top: 25px;
+}
+.coinsummary {
+   max-width: 40%;
+}
+
+.list-group-item {
+   background-color: lightgoldenrodyellow;
+}
+
+.text-center {
+   color: lightgoldenrodyellow !important;
+}
+
+.coinList-image {
+   width: 50px;
+}
+
+/* .coinList-item {
+    display: flex;
+} */
+
+/* .coinsummary {
+    border-color: lightcoral !important;
+    border-style: outset !important;
+} */
+
+.coin-data-category {
+   font-size: 10px;
+}
+.spinner-border {
+   margin-left: 17% !important;
+   margin-top: -40px !important;
+}
+.search-coins:hover {
+   background-color: rgb(244, 244, 222);
+}
+
+/* .text-success, .text-danger {
+    position: absolute;
+    padding-left: 150px;
+}
+ */
+.delete-icon {
+   display: none;
+   /* position: absolute;
+    left: -145px; */
+}
+
+.coin:hover .delete-icon {
+   display: contents ;
+}
+/* .coin:active .delete-icon:active{
+   display: contents !important;
+} */
+
+
+@media (max-width: 922px) {
+   .shadow {
+      display: flex;
+   }
+   .text-success,
+   .text-danger {
+      font-size: 10px;
+   }
+   .text-price {
+      font-size: 14px;
+   }
+
+   .coinlist-item {
+      font-size: 10px;
+   }
+   /* .currancy-change {
+      margin-left: 20px;
+   } */
+
+   .coinList-image {
+      width: 25px;
+   }
+}
+
+@media (max-width: 725px) {
+   .main {
+
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center;
+      margin: auto !important;
+      padding: auto !important;
+   }
+
+   .shadow{
+      width: 100%;
+      margin: 0 !important;
+      justify-content: center;
+   }
+   .coinlist-page{
+      width: 100%;
+
+   }
+
+   .spinner{
+      margin-left: 20px;
+   }
+
+   .find-coins{
+      margin-top: 20px;
+      margin-bottom: 50px;
+   }
+   
+}
+
+@media (max-width: 515px) {
+   .shadow{
+      width: 250px;
+   }
+   .main{
+      /* margin-left: -50px !important; */
+      padding: 0 !important;
+   }
+   
+}
+
